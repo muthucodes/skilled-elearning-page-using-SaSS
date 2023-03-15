@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-container center">
+          <img class="company-icon" src="./assets/logo-dark.svg" alt="" />
+          <a href="#" class="btn">Get Started</a>
+        </div>
+      </nav>
+      <section class="section-hero center">
+        <div class="hero-text-box">
+          <h1>Maximize skill, minimize budget</h1>
+          <p>
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <a href="#" class="btn btn-hero">Get Started</a>
+        </div>
+        <div class="hero-img-box">
+          <picture>
+            <source
+              media="(max-width: 375px)"
+              srcset="
+                ./assets/image-hero-mobile.png     435w,
+                ./assets/image-hero-mobile.webp    435w,
+                ./assets/image-hero-mobile@2x.png  870w,
+                ./assets/image-hero-mobile@2x.webp 870w
+              "
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                ./assets/image-hero-tablet.png      695w,
+                ./assets/image-hero-tablet.webp     695w,
+                ./assets/image-hero-tablet@2x.png  1390w,
+                ./assets/image-hero-tablet@2x.webp 1390w
+              "
+            />
+
+            <img
+              src="./assets/image-hero-desktop.png"
+              alt="Our site has 1451 hours of course content and 29000 members so far"
+            />
+          </picture>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="section-courses">
+        <div class="section-grid center">
+          <div class="feature-card">
+            <h2>Check out our most popular courses!</h2>
+          </div>
+          <div class="feature-card">
+            <img src="./assets/icon-animation.svg" class="icon" />
+            <h3>Animation</h3>
+            <p>
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="#" class="btn-section-courses">Get Started</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="./assets/icon-design.svg" alt="" class="icon" />
+            <h3>Design</h3>
+            <p>
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <a href="#" class="btn-section-courses">Get Started</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="./assets/icon-photography.svg" alt="" class="icon" />
+            <h3>Photography</h3>
+            <p>
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
+            <a href="#" class="btn-section-courses">Get Started</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="./assets/icon-crypto.svg" alt="" class="icon" />
+            <h3>Crypto</h3>
+            <p>
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
+            <a href="#" class="btn-section-courses">Get Started</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="./assets/icon-business.svg" alt="" class="icon" />
+            <h3>Business</h3>
+            <p>
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
+            <a href="#" class="btn-section-courses">Get Started</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="center footer-container">
+        <img class="company-icon" src="./assets/logo-light.svg" alt="" />
+        <a href="#" class="btn btn-footer">Get Started</a>
+      </div>
+    </footer>
+  </body>
+</html>

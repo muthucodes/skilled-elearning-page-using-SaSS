@@ -1,0 +1,131 @@
+// @import "main.scss";
+
+@media (max-width: 768px) {
+  .company-icon {
+    width: 8.9rem;
+  }
+  .btn {
+    @include Body-S;
+    padding: 1.1rem 2.4rem;
+
+    &-hero {
+      padding: 1.4rem 3.8rem;
+    }
+  }
+  .nav-container {
+    padding: 2.4rem 4rem;
+  }
+  .section-hero {
+    padding: 0 4rem;
+
+    .hero-text-box {
+      gap: 2.5rem;
+      width: 60%;
+
+      padding: 9.9rem 0 18.6rem 0;
+
+      h1 {
+        @include Heading-L;
+      }
+
+      p {
+        font-size: 1.6rem;
+        line-height: 26px;
+        font-weight: 500;
+        width: 100%;
+      }
+    }
+
+    .hero-img-box {
+      picture {
+        bottom: 0;
+        left: 44%;
+
+        scale: 0.9;
+        // border: 1px solid black;
+        transform: translateY(1%);
+      }
+    }
+  }
+
+  .section-courses {
+    padding: 0 4rem;
+    // padding-top: 9rem;
+    padding-bottom: 8.6rem;
+  }
+
+  .section-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 5.6rem;
+
+    .feature-card {
+      padding: 5.6rem 2.1rem 3.2rem 3.2rem;
+      h2 {
+        font-size: 2.4rem;
+        line-height: 32px;
+      }
+
+      h3 {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+  .footer {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-container {
+    padding: 1.6rem 1.6rem;
+  }
+  .section-hero {
+    padding: 0 1.6rem;
+    flex-direction: column;
+    .hero-text-box {
+      width: 100%;
+      padding-top: 3.8rem;
+      padding-bottom: 4.6rem;
+    }
+    .hero-img-box {
+      picture {
+        display: block;
+        position: static;
+        scale: 1.2;
+        // border: 1px solid black;
+      }
+    }
+  }
+  .section-courses {
+    padding: 0 1.6rem;
+    padding-top: 2.8rem;
+    padding-bottom: 8rem;
+  }
+  .section-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .feature-card {
+      padding: 5.6rem 2.9rem 3.2rem 2.9rem;
+
+      &:first-child {
+        padding: 3.2rem;
+      }
+    }
+  }
+  .footer {
+    padding: 0 1.6rem;
+
+    .footer-container {
+      padding: 3.6rem 0;
+    }
+  }
+}

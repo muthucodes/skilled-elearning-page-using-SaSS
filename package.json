@@ -1,0 +1,14 @@
+{
+  "name": "skilled-elearning-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Skilled e-learning landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:dist/styles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
